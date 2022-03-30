@@ -6,10 +6,7 @@ Description: Password checker
 
 
 def is_valid(password, length):
-    if len(password) < length:
-        return False
-    else:
-        return True
+    return len(password) <= length
 
 
 def main():
